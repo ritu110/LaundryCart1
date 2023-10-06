@@ -6,8 +6,6 @@ const API =
   process.env.DATABASE_URL ||
   "mongodb+srv://ritut1179:noQ7RJFYrcT7vK7L@cluster0.l6q5bia.mongodb.net/?retryWrites=true&w=majority";
 
-// "mongodb+srv://Chandini_S:Crystal0212@cluster0.l2pby5u.mongodb.net/laundrycart?retryWrites=true&w=majority"; // "mongodb+srv://Akanksha:Apawar123@cluster0.6karf8f.mongodb.net/test?retryWrites=true&w=majority"  // mine="mongodb+srv://Chandini_S:Crystal0212@cluster0.l2pby5u.mongodb.net/laundrycart?retryWrites=true&w=majority"
-
 mongoose.set("strictQuery", false);
 
 const app = require("./app");
